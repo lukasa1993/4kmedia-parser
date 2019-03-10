@@ -12,7 +12,6 @@ const typeMapping = {
   'HDR & Dolby Vision': 'HDR',
   'Fake':               'Fake',
   'Fake 4K':            'Fake',
-  '4K':                 'Real',
   'Real 4k':            'Real',
   'Real 4K':            'Real',
 };
