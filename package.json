@@ -1,11 +1,13 @@
 {
   "name": "4kmedia-parser",
   "version": "1.0.0",
+  "scripts": {
+    "deploy": "now rm 4kmedia-parser -y && now && now alias"
+  },
   "dependencies": {
-    "cheerio":    "^1.0.0-rc.2",
-    "json-tree":  "^0.5.1",
-    "lodash":     "latest",
-    "node-fetch": "^2.3.0",
-    "handlebars": "latest"
+    "cheerio": "^1.0.0-rc.2",
+    "handlebars": "latest",
+    "lodash": "latest",
+    "node-fetch": "^2.3.0"
   }
 }
